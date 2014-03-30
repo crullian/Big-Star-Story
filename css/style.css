@@ -1,0 +1,390 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 10px; line-height: 1.4; }
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+
+body{
+	background-color: #f3eae5;
+	background-image: url(../img/bigstarsite.png);
+	background-repeat: no-repeat;
+	font-family: "Century Gothic";
+}
+header{
+	position: absolute;
+	z-index: 1;
+}
+div#main{
+	height: 68px;
+	width: 1200px;
+}
+div#main > div{
+	float: left;
+	position: relative;
+	height: 4.250em;
+}
+header h1{
+	position: absolute;
+	height: 0em;
+	width: 20.063em;
+	top: 1.875em;
+	left: 10.5em;
+	padding-top: 6.563em;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-image: url(../img/big-star-nothing-can-hurt-me-logo.png);
+}
+header h2{
+	color: #905C1C;
+  font-size: 1.3em;
+  font-weight: normal;
+  left: 16.25em;
+  position: absolute;
+  top: 16em;
+  width: 25em;
+}
+header h2 em{
+	font-style: normal;
+	color: #ff6106;
+}
+header #social-buttons{
+  left: 210px;
+  position: absolute;
+  top: 330px;
+  width: 400px;
+}
+header #social-buttons > div{
+	float: left;
+}
+header .fb-like{
+	width: 250px;
+	padding-left: 5px;
+}
+header .twitter-follow{
+	margin-bottom: 5px;
+}
+#organ{
+	position: absolute;
+	top: 372px;
+	left: 0px;
+}
+nav{
+  border-top: 1px solid brown;
+  left: 212px;
+  padding-top: 10px;
+  position: absolute;
+  top: 158px;
+  width: 350px;
+}
+nav li{
+	float: left;
+	padding-right: 30px;
+	display: block;
+}
+nav a, nav a:hover, nav a:visited{
+	text-decoration: none;
+	color: #FF6106;
+	font-size: 1.4em;
+}
+nav a:hover,
+nav .current a{
+	text-decoration: underline;
+}
+div#photos-1{
+	width: 966px;
+}
+div.photo-section > div.captioned-image,
+div.photo-section > img{
+	position: absolute;
+}
+#andy-alex-and-jody-1973{
+  left: 591px;
+  top: 254px;
+}
+/*.captioned-image img{
+	box-shadow: 10px 10px #905C1C, 20px 20px #ff6106;
+}*/
+.captioned-image p{
+	color: #905C1C;
+	font-size: 1.1em;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.quote{
+	font-size: 1.3em;
+	position: absolute;
+}
+.quote p{
+	margin: 0px;
+}
+
+#peter-holsapple-quote{
+	width: 237px;
+	color: #ff6106;
+	left: 640px;
+	top: 530px;
+}
+#peter-holsapple-quote .quoted{
+	color: #905C1C;
+}
+div#pitchfork-quote{
+	margin-top: 180px;
+	position: absolute;
+	width: 300px;
+	color: #905C1C;
+	margin-left: -350px;
+}
+#pitchfork-quote .quoted{
+	color: #ff6106;
+}
+div#photos-2{
+	width: 604px;
+	padding-right: 5px;
+}
+#alex-chris-ardent{
+	left: 940px;
+  top: -91px;
+}
+#chris-alex-andy-in-bedroom{
+	left: 940px;
+	top: 180px;
+}
+
+#chris-bell-europe{
+  left: -250px;
+	top: 130px;
+}
+
+/*   Press */
+
+body#press div#main{
+	width: 2100px;
+	padding-top: 210px;
+	padding-left: 340px;
+	height: 470px;
+}
+body#press div#main > section{
+    background-color: #905C1C;
+    box-shadow: 11px 11px #FF6106;
+    color: #FFFFFF;
+    font-size: 0.95em;
+    left: 190px;
+    padding: 30px;
+    width: 352px;
+	float: left;
+}
+body#press #doc-list{
+	padding: 0px;
+}
+body#press #doc-list li{
+	padding: 0px;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+body#press #doc-list li a,
+body#press #doc-list li a:hover,
+body#press #doc-list li a:active{
+	color: #f8c5a7;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+body#press #doc-list li a:hover{
+	text-decoration: underline;
+}
+body#press div#main section#downloads{
+	height: 140px;
+    margin-top: 200px;
+    width: 200px;
+}
+body#press div#main section#images{
+	width: 1560px;
+	height: 340px;
+	margin-left: 40px;
+}
+body#press #image-list{
+	padding: 0px;
+}
+body#press #image-list li{
+	float: left;
+	padding-right: 10px;
+	list-style-type: none;
+}
+body#press div#main section h2{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+
+/*   Events */
+
+body#events div#main{
+	width: 2100px;
+	padding-top: 210px;
+	padding-left: 340px;
+	height: 470px;
+}
+body#events div#main > section{
+  background-color: #905C1C;
+  box-shadow: 11px 11px #FF6106;
+  color: #FFFFFF;
+  font-size: 0.95em;
+  left: 190px;
+  padding: 30px;
+  width: 352px;
+	float: left;
+}
+body#events #doc-list{
+	padding: 0px;
+}
+body#events #doc-list li{
+	padding: 0px;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+body#events #doc-list li a,
+body#events #doc-list li a:hover,
+body#events #doc-list li a:active{
+	color: #f8c5a7;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+body#events #doc-list li a:hover{
+	text-decoration: underline;
+}
+body#events div#main section#calendar{
+	width: 800px;
+	height: 600px;
+	margin-left: 200px;
+}
+body#events div#main section h2{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+/* =============================================================================
+   Non-Semantic Helper Classes
+   ========================================================================== */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/* =============================================================================
+   Print Styles
+   ========================================================================== */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
