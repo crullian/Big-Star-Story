@@ -76,18 +76,19 @@ td { vertical-align: top; }
 
 body{
 	background-color: #f3eae5;
-	background-image: url(../img/bigstarsite.png);
+	/*background-image: url(../img/bigstarsite.png);*/
 	background-repeat: no-repeat;
 	font-family: "Century Gothic";
 }
 header{
 	position: absolute;
 	z-index: 1;
+	/*left: -10em;*/
 }
-div#main{
+/*div#main{
 	height: 68px;
 	width: 1200px;
-}
+}*/
 div#main > div{
 	float: left;
 	position: relative;
@@ -133,6 +134,12 @@ header .fb-like{
 header .twitter-follow{
 	margin-bottom: 5px;
 }
+#sxsw-laurels{
+	left: 525px;
+  position: absolute;
+  top: 75px;
+  width: 90px;
+}
 #organ{
 	position: absolute;
 	top: 372px;
@@ -148,7 +155,7 @@ nav{
 }
 nav li{
 	float: left;
-	padding-right: 30px;
+	padding-right: 25px;
 	display: block;
 }
 nav a, nav a:hover, nav a:visited{
@@ -167,19 +174,21 @@ div.photo-section > div.captioned-image,
 div.photo-section > img{
 	position: absolute;
 }
-#andy-alex-and-jody-1973{
-  left: 591px;
-  top: 254px;
+#big-star-barn{
+  left: 650px;
+  top: 70px;
 }
-/*.captioned-image img{
-	box-shadow: 10px 10px #905C1C, 20px 20px #ff6106;
-}*/
-.captioned-image p{
+.captioned-image img{
+	width: 550px;
+	/*box-shadow: 10px 10px #905C1C, 20px 20px #ff6106;*/
+	box-shadow: 10px 10px 20px rgba(34,34,34,0.7);
+}
+/*.captioned-image p{
 	color: #905C1C;
 	font-size: 1.1em;
 	margin-top: 20px;
 	margin-left: 20px;
-}
+}*/
 
 .quote{
 	font-size: 1.3em;
@@ -189,26 +198,30 @@ div.photo-section > img{
 	margin: 0px;
 }
 
-#peter-holsapple-quote{
-	width: 237px;
-	color: #ff6106;
-	left: 640px;
-	top: 530px;
-}
-#peter-holsapple-quote .quoted{
-	color: #905C1C;
-}
 div#pitchfork-quote{
-	margin-top: 180px;
+	margin-top: 595px;
 	position: absolute;
 	width: 300px;
 	color: #905C1C;
-	margin-left: -350px;
+	margin-left: -750px;
 }
 #pitchfork-quote .quoted{
 	color: #ff6106;
+	margin-left: 5em;
 }
-div#photos-2{
+
+div#nytimes-quote{
+	margin-top: 395px;
+	position: absolute;
+	width: 300px;
+	color: #ff6106;
+	margin-left: -640px;
+}
+#nytimes-quote .quoted{
+	color: #905C1C;
+	margin-left: 5em;
+}
+/*div#photos-2{
 	width: 604px;
 	padding-right: 5px;
 }
@@ -224,7 +237,7 @@ div#photos-2{
 #chris-bell-europe{
   left: -250px;
 	top: 130px;
-}
+}*/
 
 /*   Press */
 
